@@ -1,0 +1,277 @@
+* {
+    line-height: 1.7;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.h1_big {
+    font-size: 400%;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+    .h1_big {
+        font-size: 200%;
+    }
+}
+
+.row {
+    margin-bottom: 50px;
+    clear: both;
+}
+
+.overflowhidden {
+    overflow: hidden;
+    position: relative;
+}
+
+.bordertop {
+    border-top: 1px solid lightgrey;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.blue {
+    color: #00ace9;
+    font-weight: lighter;
+}
+
+@media (max-width: 991px) {
+    .opacity {
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-right {
+        text-align: left;
+    }
+}
+
+img.logo {
+    width: 250px;
+    margin-top: -10px;
+}
+
+@media (max-width: 767px) {
+    img.logo {
+        width: 200px;
+        margin-top: -20px;
+    }
+}
+
+.margin-bottom20 {
+    margin-bottom: 20px;
+}
+
+<!--
+/* Navigation */
+
+.nav {
+    font-size: 130%;
+    font-weight: lighter;
+    padding: 20px;
+    color: white;
+    list-style: none;
+    text-align: right;
+}
+
+<!--
+/* Infoboxen */
+
+.infoboxheader {
+    padding: 10px;
+    min-height: 50px;
+    background-color: #00ace9;
+}
+
+.h2-infobox {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.infoboxbody {
+    padding: 10px;
+    background-color: #f5f7f8;
+    position: relative;
+}
+
+<!--
+/* Abgeschrägter Trenner 100% Breite */
+
+.diagonalseparater_100 {
+    position: relative;
+    min-height: 40px;
+    background-color: #46606c;
+    overflow: hidden;
+}
+
+.diagonalseparater_wrapper100 {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    min-height: 40px;
+    -webkit-transform: rotate(-0.9deg);
+    -moz-transform: rotate(-0.9deg);
+    -ms-transform: rotate(-0.9deg);
+    -o-transform: rotate(-0.9deg);
+    transform: rotate(-0.9deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    z-index: 1;
+}
+
+.diagonalseparater_wrapper100_drops {
+    background-image: url("../img/bg_tropfen.png");
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    min-height: 40px;
+    -webkit-transform: rotate(-0.9deg);
+    -moz-transform: rotate(-0.9deg);
+    -ms-transform: rotate(-0.9deg);
+    -o-transform: rotate(-0.9deg);
+    transform: rotate(-0.9deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    z-index: 1;
+}
+
+@media (max-width: 991px) {
+    .diagonalseparater_wrapper100_drops,
+    .diagonalseparater_wrapper100 {
+        -webkit-transform: rotate(-2deg);
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -o-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+    }
+}
+
+<!--
+/* Abgeschrägter Trenner für die Infoboxen */
+
+.diagonalseparater_infobox {
+    position: relative;
+    min-height: 20px;
+    background-color: #46606c;
+    overflow: hidden;
+}
+
+.diagonalseparater_wrapperinfobox {
+    background-color: #f5f7f8;
+    position: absolute;
+    width: 101%;
+    min-height: 30px;
+    -webkit-transform: rotate(-4deg);
+    -moz-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    -o-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+@media (max-width: 991px) {
+    .diagonalseparater_wrapperinfobox {
+        -webkit-transform: rotate(-1.5deg);
+        -moz-transform: rotate(-1.5deg);
+        -ms-transform: rotate(-1.5deg);
+        -o-transform: rotate(-1.5deg);
+        transform: rotate(-1.5deg);
+    }
+}
+
+<!--
+/* Footer */
+
+.footer {
+    padding: 50px;
+    color: #46606c;
+    min-height: 100px;
+    background-image: url("../img/bg_tropfen.png")
+}
+
+.footer a {
+    color: #46606c;
+}
+
+<!--
+/* Backgroundimages */
+
+.backgroundimage_bottle {
+    background-image: url("../img/Mikromeister.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.backgroundimage_drops {
+    background-image: url("../img/bg_tropfen.png");
+    border-bottom: 1px dotted lightgray;
+    margin-bottom: 20px;
+}
+
+div.backgroundimage_drops:nth-child(7) {
+    border-top: 1px dotted lightgray;
+    padding-top: 20px;
+}
+
+<!--
+/* Temporär */
+
+.newlabel {
+     color: magenta;
+     font-size: 150px;
+     margin-top: 200px;
+     margin-right: 100px;
+     background-color: transparent;
+     position: absolute;
+     top: 0;
+     right: 0;
+     -webkit-transform: rotate(5deg);
+     -moz-transform: rotate(5deg);
+     -ms-transform: rotate(5deg);
+     -o-transform: rotate(5deg);
+     transform: rotate(5deg);
+ }
+
+.newlabel_text {
+    color: white;
+    font-size: 35px;
+    margin-top: 245px;
+    margin-right: 140px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+
+@media (max-width: 767px) {
+    .newlabel {
+        display: none;
+    }
+
+    .newlabel_text {
+        display: none;
+    }
+}
